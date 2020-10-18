@@ -1,0 +1,184 @@
+.grid-container{
+	display: grid;
+	grid-template-rows: 110px 401.5px 354.75px 49.5px;
+	grid-template-columns: auto 20px 0px 300px 300px 360px auto;
+	grid-column-gap: 30px;
+	font-family: lato;
+}
+
+p{
+	line-height: 20px;
+	font-size: 14px;
+}
+h1{
+	line-height: 30px;
+	font-size: 26px;
+}
+h2{
+	line-height: 22px;
+	font-size: 20px;
+}
+.headerbg{
+	grid-row: 1/2;
+	grid-column: 2/7;
+	background-image: url("images/header_bg.png"); 
+}
+.header{
+	grid-row: 1/2;
+	grid-column: 3/7;
+}
+.header img{
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: darkblue;
+}
+nav {
+	display: inline-block;
+	margin-left: 110px
+}
+ul li{
+	display: inline-block;
+	margin-right: 32px
+}
+.bannerbg{
+	grid-row: 2/3;
+	grid-column: 2/7;
+	background-image: url("images/banner_bg.png");
+}
+.banner{
+	grid-row: 2/3;
+	grid-column: 3/6;
+	margin-top: 20px;
+}
+.bannertext{
+	grid-row: 2/3;
+	grid-column: 6/7;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 40px;
+	color: white;
+}
+.fade-slider{
+	grid-row: 3/4;
+	grid-column: 4/5;
+	margin-top: 20px;
+}
+.nivo-slider{
+	grid-row: 3/4;
+	grid-column: 5/6;
+	margin-top: 20px;
+}
+.bonus-3d-slider{
+	grid-row: 3/4;
+	grid-column: 6/7;
+	margin-top: 20px;
+	margin-right: 60px;
+}
+.footerbg{
+	grid-row: 4/5;
+	grid-column: 2/7;
+	background-image: url("images/footer_bg.png");
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+}
+.headerauto{
+	grid-row: 1/2;
+	grid-column: 2/7;
+	background-image: url("images/headerauto.jpg");
+}
+.headerkleding{
+	grid-row: 1/2;
+	grid-column: 2/7;
+	background-image: url("images/headerkleding.jpg");
+}
+.bannerauto{
+	grid-row: 2/3;
+	grid-column: 2/7;
+	background-image: url("images/bannerauto.jpg");
+}
+.bannerkleding{
+	grid-row: 2/3;
+	grid-column: 2/7;
+	background-image: url("images/bannerkleding.jpg");
+}
+.footerauto{
+	grid-row: 4/5;
+	grid-column: 2/7;
+	background-image: url("images/bannerauto.jpg");
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+}
+.footerkleding{
+	grid-row: 4/5;
+	grid-column: 2/7;
+	background-image: url("images/bannerkleding.jpg");
+	text-align: center;
+	color: white;
+	padding-top: 15px
+}
+.titel{
+	grid-row: 2/3;
+	grid-column: 2/7;
+	text-align: center;
+	color: white;
+}
+.product1{
+	grid-row: 2/3;
+	grid-column: 4/5;
+	margin-top: 60px;
+	color: white;
+}
+.product1 img{
+	width: 300px;
+	height: 150px
+}
+.product2{
+	grid-row: 2/3;
+	grid-column: 5/6;
+	margin-top: 60px;
+	color: white;
+}
+.product2 img{
+	width: 300px;
+	height: 150px
+}
+.product3{
+	grid-row: 2/3;
+	grid-column: 6/7;
+	margin-top: 60px;
+	margin-right: 60px;
+	color: white;
+	width: 300px;
+	height: 150px;
+}
+.product3 img{
+	width: 300px;
+	height: 150px
+}
+.fade-slider img{
+	width: 300px;
+	height: 150px
+}
+.nivo-slider img{
+	width: 300px;
+	height: 150px
+}
+.bonus-3d-slider img{
+	width: 300px;
+	height: 150px
+}
+.contact{
+	grid-row: 2/3;
+	grid-column: 2/7;
+	text-align: center;
+	color: white;
+}
